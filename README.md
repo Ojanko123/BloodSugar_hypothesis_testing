@@ -1,4 +1,4 @@
-# #  Blood Sugar Analysis — Normality Testing & Non-Parametric Tests (R)
+ #  Blood Sugar Analysis — Normality Testing & Non-Parametric Tests (R)
 
 
 A statistical analysis examining whether blood sugar levels in children differ based on parental diabetes status. The study applies normality tests to both groups before selecting the appropriate hypothesis test, demonstrating a rigorous assumption-checking workflow before drawing any conclusions.
