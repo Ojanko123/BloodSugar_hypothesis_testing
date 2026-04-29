@@ -88,5 +88,5 @@ install.packages(c("nortest", "dplyr", "psych", "BSDA"))
 
 
 **Oresti Janko**
-BSc Statistics and Insurance Science — University of Piraeus
+BSc Statistics and Insurance Science - University of Piraeus
 Focus: Non-parametric statistics, hypothesis testing, statistical modelling
