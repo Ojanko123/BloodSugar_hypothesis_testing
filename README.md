@@ -1,4 +1,4 @@
- #  Blood Sugar Analysis — Normality Testing & Non-Parametric Tests (R)
+ #  Blood Sugar Analysis - Normality Testing & Non-Parametric Tests (R)
 
 
 A statistical analysis examining whether blood sugar levels in children differ based on parental diabetes status. The study applies normality tests to both groups before selecting the appropriate hypothesis test, demonstrating a rigorous assumption-checking workflow before drawing any conclusions.
@@ -32,23 +32,23 @@ The analysis tests whether the two groups differ significantly in blood sugar le
 
 ## Analysis
 
-### Step 1 — Normality Testing
+### Step 1 - Normality Testing
 
 Before selecting a hypothesis test, normality was formally verified for both groups using three tests:
 
-**Shapiro-Wilk Test** — most appropriate for small samples (n=5), tests whether data comes from a normal distribution.
+**Shapiro-Wilk Test** - most appropriate for small samples (n=5), tests whether data comes from a normal distribution.
 
-**Kolmogorov-Smirnov Test** — compares the empirical distribution against a theoretical normal distribution fitted to the data.
+**Kolmogorov-Smirnov Test** -compares the empirical distribution against a theoretical normal distribution fitted to the data.
 
-**Lilliefors Test** — a modified KS test that does not require pre-specified parameters, more appropriate when mean and SD are estimated from the data.
+**Lilliefors Test** - a modified KS test that does not require pre-specified parameters, more appropriate when mean and SD are estimated from the data.
 
 Both groups were tested independently, confirming whether parametric or non-parametric methods should be applied.
 
-### Step 2 — Descriptive Statistics
+### Step 2 - Descriptive Statistics
 
 Summary statistics (mean, standard deviation, median, min, max) were computed for both groups using the `psych` library's `describe()` function.
 
-### Step 3 — Hypothesis Testing
+### Step 3 - Hypothesis Testing
 
 Since the sample size is very small (n=5 per group) and normality could not be reliably confirmed, **non-parametric tests** were applied:
 
